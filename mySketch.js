@@ -39,4 +39,9 @@ function draw() {
 	ball.p.x += ball.v.x	
 	ball.p.y += ball.v.y
 	}
+
+
+function windowResized(){
+    resizeCanvas(windowWidth, windowHeight);
+}
 }
